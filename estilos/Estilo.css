@@ -4,9 +4,15 @@
     margin-right: 0px;
     font-family: 'Lato', sans-serif;
 }
-html{
-    background: yellow;
+body{
     margin-top: -10px;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background: linear-gradient(70deg,white,  blue);
+    background:-webkit-linear-gradient(70deg,white,  blue);
+    background:-moz-linear-gradient(70deg,white,  blue);
+    background:-o-linear-gradient(70deg,white,  blue);
+    background:-ms-linear-gradient(70deg,white,  blue);
 }
 a.enlace{
     width: 90px;
