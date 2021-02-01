@@ -8,11 +8,12 @@ body{
     margin-top: -10px;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    background: linear-gradient(70deg,white,  blue);
-    background:-webkit-linear-gradient(70deg,white,  blue);
-    background:-moz-linear-gradient(70deg,white,  blue);
-    background:-o-linear-gradient(70deg,white,  blue);
-    background:-ms-linear-gradient(70deg,white,  blue);
+    background-size: cover;
+    background: linear-gradient(right, lightblue,  blue);
+    background:-webkit-linear-gradient(right, lightblue,  blue);
+    background:-moz-linear-gradient(right, lightblue,  blue);
+    background:-o-linear-gradient(right, lightblue,  blue);
+    background:-ms-linear-gradient(right, lightblue,  blue);
 }
 a.enlace{
     width: 90px;
