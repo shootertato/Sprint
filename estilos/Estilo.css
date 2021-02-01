@@ -1,0 +1,342 @@
+/* General */
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    background: yellow;
+    margin-top: -10px;
+}
+a.enlace{
+    width: 90px;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 1px;
+}
+div.encabezado{
+    background-image: url("/img/background-image.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    background-position-y: bottom;
+    position: static; 
+    margin-right: 0px;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+h1{
+    padding-top: 0px;
+    color: darkgoldenrod;
+    margin-left: 84%;
+    font-size: 30px;
+}
+h2{
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h2.contacto{
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h2.fecha{
+    margin:auto;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button{
+    border-top: white;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    background-color: skyblue;
+}
+.logo{
+    margin-left: 83.5%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Contacto */
+.contenedor3{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 90% 0% 0% 0%;
+    justify-content: center; 
+    gap:50px;
+}
+.contenedor4{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 30% 40%;
+    justify-content: center; 
+    gap:50px;
+    margin-left: 80px;
+}
+p.contacto{
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    margin-left: 28%;
+}
+p.telefono{
+    font-size: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 20px 20px;
+    height: 20px;
+    width: 350px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+p.correo{
+    font-size: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 20px 20px;
+    height: 20px;
+    width: 350px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+div.dato1{
+    text-align: center;
+    line-height: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 22%;
+}
+div.dato2{
+    text-align: center;
+    line-height: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 18%;
+}
+
+
+/* Home */
+.contenedor1{
+    display: grid;
+    grid-template-columns: 0% 27% 27% 27%;
+    justify-content: center; 
+    gap:50px;
+}
+table.curso{
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    padding:3px 10px 3px 10px;
+}
+tr.td.numero{
+    font-weight: bold;
+}
+span.negrita2{
+    font-weight: bold;
+    font-size: 50px;
+}
+span.negrita3{
+    font-weight: bold;
+    font-size: auto;
+}
+p span.salto{
+    display: block;
+}
+td.texto{
+    font-size: 30px;
+}
+span.negrita3{
+    font-weight: bold;
+}
+input.boton{
+    background-color: purple;
+    border-color: black;
+    color:white;
+}
+
+/* Conocenos */
+.contenedor2{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 15% ;
+    justify-content: center; 
+    gap:50px;
+    margin-bottom: 200px
+}
+p.presentacion{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Lato', sans-serif;
+}
+div.columnas img{
+    margin: auto;
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+div.columna img{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+div.columnas{
+    text-align: center;
+  line-height: 35px;
+  margin: auto;
+  font-size: 30px;
+  width: 26%;
+  margin-bottom: 30px;
+  background-color: darkmagenta;
+  border-radius: 60px;
+  padding:30px 30px 30px 30px;
+  justify-content: center;
+  box-shadow: 10px 10px 10px 0px rgb(102, 6, 102);
+}
+
+/* Menu */
+.menucss  
+	{
+	list-style-type: none;
+    margin-left: 1%;
+    margin-top: -100px;
+	padding: 0;
+	height: 50px;
+	width: 120px;
+	background: #555;
+	background: -moz-linear-gradient(#2600ff,#575fd8);
+	background: -webkit-linear-gradient(#2600ff,#575fd8);
+	background: -o-linear-gradient(#2600ff,#575fd8);
+	background: -ms-linear-gradient(#2600ff,#575fd8);
+	background: linear-gradient(#2600ff,#575fd8);
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.menucss li {
+    display: block;
+    float: left;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+} 
+.menucss li a {
+    border-left: 1px solid #000;
+    border-right: 1px solid #666;
+    color: #EEE ;
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 14px;
+    margin: 6px 0;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+} 
+.menucss li:first-child a {
+    border-left: none;
+} 
+.menucss li:last-child a {
+    border-right: none;
+} 
+.menucss li:hover > a {
+    color: black ;
+} 
+.menucss ul { 
+    margin: 0;
+    position: absolute;
+    top: 40px;left: 0;
+    opacity: 0;
+	background: #222;
+	background: -moz-linear-gradient(#2600ff,#575fd8);
+	background: -webkit-linear-gradient(#2600ff,#575fd8);
+	background: -o-linear-gradient(#2600ff,#575fd8);
+	background: -ms-linear-gradient(#2600ff,#575fd8);
+	background: linear-gradient(#2600ff,#575fd8);
+	border-radius: 0 0 5px 5px;
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+} 
+.menucss li:hover > ul {
+    opacity: 1;
+} 
+.menucss ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+	width: 240px;
+	} 
+.menucss li:hover > ul li {
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+	} 
+.menucss ul li a {
+	border: none;
+	border-bottom: 1px solid #111;
+	margin: 0;
+	padding: 1px 10px;
+	width: 190px;
+	}
+.menucss ul li:last-child a {
+    border: none;
+} 
+.menucss li ul li ul {
+    right:-140px;
+    left:-200px;
+    top:0px;
+    position:absolute;
+    width: 120px;
+    margin: 0px;
+    text-align: left; 
+}
+.menucss li ul li ul a {
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    padding: 5px 10px;
+    width: 80px;
+}
+.menucss{
+    position: relative;
+    bottom: 4.5em;
+    border-width: 2px;
+    border-color: black;
+}
