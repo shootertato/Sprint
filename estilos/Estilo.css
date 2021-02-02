@@ -94,6 +94,7 @@ p.contacto{
     font-family: 'Lato', sans-serif;
     justify-content: center;
     margin-left: 28%;
+    color:white;
 }
 p.telefono{
     font-size: 30px;
@@ -219,6 +220,25 @@ div.columnas{
   padding:30px 30px 30px 30px;
   justify-content: center;
   box-shadow: 10px 10px 10px 0px rgb(102, 6, 102);
+}
+/*Información*/
+table.info{
+    margin:auto;
+    background-color: darkgoldenrod;
+    padding: 20px;    
+    margin-top: 8%;
+    font-size: 25px;
+}
+table.info, td.datos, th.datos{
+    border: 3px solid black;
+    padding: 5px;
+}
+caption.titulo{
+    padding: 5px;
+    color: white;
+}
+tr{
+    text-align: center;
 }
 
 /* Menu */
