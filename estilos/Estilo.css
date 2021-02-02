@@ -367,3 +367,12 @@ tr{
     border-width: 2px;
     border-color: black;
 }
+/*Scroll*/
+body::-webkit-scrollbar{
+    width: 7px;
+    background: darkblue;
+}
+body::-webkit-scrollbar-thumb{
+    background:darkgoldenrod;
+    border-radius: 8px;
+}
