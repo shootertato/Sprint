@@ -1,0 +1,93 @@
+<!Doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link REL="stylesheet" TYPE="text/css" HREF="/estilos/Estilo.css">
+</head>
+
+<body>
+    <div class="encabezado">
+        <img class="logo" alt="Esto es el logo" src="/img/letscoder-square.jpeg">
+        <p>
+        <h1>Let´s Coder</h1>
+        <nav>
+            <ul class="menucss">
+                <li>
+                    <a href="/home.html">Menu </a>
+                    <ul>
+                        <li><a class="enlace" href="/home.html">Home</a></li>
+                        <li><a class="enlace" href="/conocenos.html">Conócenos</a></li>
+                        <li><a class="enlace" href="/contacto.html">Contacto</a></li>
+                        <li><a class="enlace" href="/info.html">Información</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <h2 class="fromu">Formulario Inscripción</h2>
+    <form class="formulario">
+        <fieldset>
+            <legend>1 Datos personales</legend>
+            <p>
+                Los campos que tengan un * son campos obligatorios.
+            </p>
+            <div>
+                <label for="Nombre" required>*Nombre:</label>
+                <input class="campo1" type="text" name="Nombre">
+            </div>
+            <div>
+                <label for="Apellido 1" required>*Primer apellido:</label>
+                <input class="campo2" type="text" name="Apellido 1">
+            </div>
+            <div>
+                <label for="Apellido 2">Segundo apellido:</label>
+                <input class="campo3" type="text" name="Apellido 2">
+            </div>
+            <div>
+                <label for="dni" required>*DNI:</label>
+                <input class="campo4" type="text" name="dni">
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input class="campo5" type="date" name="fecha">
+            </div>
+            <div>
+                <label for="Genero" required>*Genero:</label>
+                <input type="radio" name="Genero" value="h">Hombre
+                <input type="radio" name="Genero" value="m">Mujer
+                <input type="radio" name="Genero" value="o">Otro
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>2 Datos de contacto</legend>
+            <div>
+                <label for="correo" required>*Correo electronico:</label>
+                <input class="campo6" type="email" name="correo">
+            </div>
+            <div>
+                <label for="telefono" required>*TLF:</label>
+                <input class="campo4" type="tel" name="telefono">
+            </div>
+            <div>
+                <label for="codigo" required>*Codigo postal:</label>
+                <input class="campo7" type="text" name="codigo">
+            </div>
+            <div>
+                <label for="poblacion" required>*Poblacion:</label>
+                <input class="campo9" type="text" name="poblacion">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>3 Comentarios</legend>
+            <textarea rows="10" cols="50">Escribe aqui si tienes algun Comentario.</textarea>
+        </fieldset>
+        <div>
+            <input type="button" value="Enviar" class="enviar">
+        </div>
+    </form>

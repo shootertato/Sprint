@@ -59,13 +59,6 @@ h2.fecha{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-button{
-    border-top: white;
-    border-bottom: white;
-    border-left: white;
-    border-right: white;
-    background-color: skyblue;
-}
 .logo{
     margin-left: 83.5%;
     width: 150px;
@@ -170,10 +163,12 @@ td.texto{
 span.negrita3{
     font-weight: bold;
 }
-input.boton{
+a.boton{
     background-color: purple;
-    border-color: black;
+    border: solid 3px black;
     color:white;
+    text-decoration:none;
+    font-size: 20px;
 }
 
 /* Conocenos */
@@ -187,27 +182,22 @@ input.boton{
 }
 p.presentacion{
     text-align: center;
-    font-size: 30px;
+    font-size: 200%;
     margin: auto;
     border-color: black;
     border-style: solid;
     background-color: darkgoldenrod;
-    padding: 20px 20px 20px 20px;
+    padding: 2%;
     font-family: 'Lato', sans-serif;
 }
 div.columnas img{
     margin: auto;
     border-radius: 300px;
-    width: 200px;
-    height: 200px;
+    width: 47%;
+    height: 57%;
     justify-content: center;
 }
-div.columna img{
-    border-radius: 300px;
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-}
+
 div.columnas{
     text-align: center;
   line-height: 35px;
@@ -224,10 +214,11 @@ div.columnas{
 /*Información*/
 table.info{
     margin:auto;
-    background-color: darkgoldenrod;
-    padding: 20px;    
+    background-color: goldenrod;
+    padding: 2%;    
     margin-top: 8%;
-    font-size: 25px;
+    font-size: 100%;
+    margin-bottom: 5%;
 }
 table.info, td.datos, th.datos{
     border: 3px solid black;
@@ -240,7 +231,54 @@ caption.titulo{
 tr{
     text-align: center;
 }
-
+ul.borde{
+border: solid 3px black;
+background-color: goldenrod;
+padding: 5%;
+font-size: 20px;
+}
+ul{
+    padding: 5%;
+}
+div.lista{
+    display: grid;
+    grid-template-columns: 27% 27%;
+    justify-content: center; 
+    gap:50px;
+    
+}
+li.titulo{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5%;
+    list-style:none;
+    text-align: center;
+}
+li.punto{
+    list-style:none;
+}
+/* Formulario */
+form.formulario{
+    margin-left: 35%;
+    margin-top: 4%;
+    margin-bottom: 5%BB;
+    background-color: goldenrod;
+    width: 27%;
+    height: 9%;
+    text-align: center;
+    line-height: 30px;
+}
+legend{
+    font-weight: bold;
+}
+fieldset{
+    border:none;
+}
+input.enviar{
+    background-color: purple;
+    border-color: black;
+    color:white;
+}
 /* Menu */
 .menucss  
 	{
@@ -376,4 +414,3 @@ body::-webkit-scrollbar-thumb{
     background:darkgoldenrod;
     border-radius: 8px;
 }
-/*Animación logo*/
