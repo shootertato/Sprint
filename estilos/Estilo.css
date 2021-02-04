@@ -531,23 +531,24 @@ div.columnas{
 .contenedor3{
     display: grid;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 25%;
     grid-template-columns: 80%;
     justify-content: center; 
     gap:50px;
     font-size: 15px;
-    width: 250px;
+    width: 60%;
 }
 .contenedor4{
     display: grid;
     margin-top: 20px;
-    grid-template-columns: 30% 40%;
+    grid-template-columns: 30% 50%;
     justify-content: center; 
     gap:50px;
     margin-left: 5%;
 }
-}
 p.contacto{
+    width: 300px;
+    margin-right: 50px;
     font-size: 22px;
     font-family: 'Lato', sans-serif;
     justify-content: center;
@@ -578,11 +579,10 @@ p.correo{
 table.info{
     background-color: goldenrod;
     padding: 3px;   
-    margin-left: 5px; 
+    margin-left: 3%; 
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 5%;
-
 }
 thead.amarillo{
     background-color: goldenrod;
@@ -592,7 +592,7 @@ table tbody tr:nth-child(odd) {
 }
 div.tabla{
     height:300px;
-    width:360px;
+    width:755px;
     overflow:auto;
 }
 table.info, td.datos, th.datos{
@@ -1155,5 +1155,5 @@ input.enviar{
         border-width: 2px;
         border-color: black;
     }
-    }
+}
 }
