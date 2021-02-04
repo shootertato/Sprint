@@ -366,7 +366,7 @@ input.enviar{
 	-o-transition: height .25s ease .1s;
 	-ms-transition: height .25s ease .1s;
 	transition: height .25s ease .1s;
-	width: 240px;
+	width: 200px;
 	} 
 .menucss li:hover > ul li {
 	height: 36px;
