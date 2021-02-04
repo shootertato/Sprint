@@ -414,3 +414,359 @@ body::-webkit-scrollbar-thumb{
     background:darkgoldenrod;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 375px){
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 65%;
+}
+h1{
+    padding-top: 0px;
+    color: darkgoldenrod;
+    margin-left: 67%;
+    font-size: 22px;
+}
+
+    /* Home */
+.contenedor1{
+    display: grid;
+    columns: 1;
+    grid-template-columns: 80%;
+    justify-content: center; 
+    gap:50px;
+}
+table.curso{
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    font-size: 15px;
+    padding:3px 10px 3px 10px;
+}
+span.negrita2{
+    font-size: 25px;
+}
+span.negrita3{
+    font-size: 15px;
+}
+p span.salto{
+    display: block;
+}
+td.texto{
+    font-size: 15px;
+}
+a.boton{
+    background-color: purple;
+    border: solid 3px black;
+    color:white;
+    text-decoration:none;
+    font-size: 15px;
+}
+/* Conocenos */
+.contenedor2{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 15% ;
+    justify-content: center; 
+    gap:50px;
+    margin-bottom: 80px;
+}
+p.presentacion{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+}
+div.columnas img{
+    margin: auto;
+    border-radius: 300px;
+    width: 70%;
+    height: 60%;
+    justify-content: center;
+}
+
+div.columnas{
+    text-align: center;
+  line-height: 35px;
+  margin: auto;
+  font-size: 30px;
+  width: 50%;
+  margin-bottom: 30px;
+  background-color: darkmagenta;
+  border-radius: 60px;
+  padding:30px 30px 30px 30px;
+  justify-content: center;
+  box-shadow: 10px 10px 10px 0px rgb(102, 6, 102);
+}
+/* Contacto */
+.contenedor3{
+    display: grid;
+    margin-top: 20px;
+    margin-left: 10%;
+    grid-template-columns: 80%;
+    justify-content: center; 
+    gap:50px;
+    font-size: 15px;
+    width: 250px;
+}
+.contenedor4{
+    width: 150px;
+    display: grid;
+    grid-template-columns: 30%;
+    justify-content: center; 
+    gap:50px;
+    margin-left: 7px;
+}
+p.contacto{
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    margin-left: 10%;
+    color:white;
+}
+p.telefono{
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 10px 2px 10px 2px; 
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+p.correo{
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgoldenrod;
+    padding: 10px 2px 10px 2px; 
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+/*Información*/
+table.info{
+    background-color: goldenrod;
+    padding: 3px;   
+    margin-left: 5px; 
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 5%;
+
+}
+div.tabla{
+    height:300px;
+    width:360px;
+    overflow:auto;
+}
+table.info, td.datos, th.datos{
+    border: 3px solid black;
+    padding: 5px;
+}
+caption.titulo{
+    text-align: left;
+    padding: 5px;
+    color: white;
+}
+tr{
+    text-align: center;
+}
+ul.borde{
+border: solid 3px black;
+background-color: goldenrod;
+padding: 5%;
+font-size: 15px;
+}
+ul{
+    padding: 5px;
+}
+div.lista{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; 
+    gap:30px;
+    
+}
+h2.listas{
+    font-size: 25px;
+}
+li.titulo{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5%;
+    list-style:none;
+    text-align: center;
+}
+li.punto{
+    list-style:none;
+}
+/* Formulario */
+form.formulario{
+    margin-left: 35%;
+    margin-top: 4%;
+    margin-bottom: 5%BB;
+    background-color: goldenrod;
+    width: 27%;
+    height: 9%;
+    text-align: center;
+    line-height: 30px;
+}
+legend{
+    font-weight: bold;
+}
+fieldset{
+    border:none;
+}
+input.enviar{
+    background-color: purple;
+    border-color: black;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu */
+.menucss  
+	{
+	list-style-type: none;
+    margin-left: 2%;
+    margin-top: 10px;
+	padding: 0;
+	height: 50px;
+	width: 120px;
+	background: #555;
+	background: -moz-linear-gradient(#2600ff,#575fd8);
+	background: -webkit-linear-gradient(#2600ff,#575fd8);
+	background: -o-linear-gradient(#2600ff,#575fd8);
+	background: -ms-linear-gradient(#2600ff,#575fd8);
+	background: linear-gradient(#2600ff,#575fd8);
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.menucss li {
+    display: block;
+    float: left;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+} 
+.menucss li a {
+    border-left: 1px solid #000;
+    border-right: 1px solid #666;
+    color: #EEE ;
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 14px;
+    margin: 6px 0;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+} 
+.menucss li:first-child a {
+    border-left: none;
+} 
+.menucss li:last-child a {
+    border-right: none;
+} 
+.menucss li:hover > a {
+    color: black ;
+} 
+.menucss ul { 
+    margin: 0;
+    position: absolute;
+    top: 40px;left: 0;
+    opacity: 0;
+	background: #222;
+	background: -moz-linear-gradient(#2600ff,#575fd8);
+	background: -webkit-linear-gradient(#2600ff,#575fd8);
+	background: -o-linear-gradient(#2600ff,#575fd8);
+	background: -ms-linear-gradient(#2600ff,#575fd8);
+	background: linear-gradient(#2600ff,#575fd8);
+	border-radius: 0 0 5px 5px;
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+} 
+.menucss li:hover > ul {
+    opacity: 1;
+} 
+.menucss ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+	width: 200px;
+	} 
+.menucss li:hover > ul li {
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+	} 
+.menucss ul li a {
+	border: none;
+	border-bottom: 1px solid #111;
+	margin: 0;
+	padding: 1px 10px;
+	width: 190px;
+	}
+.menucss ul li:last-child a {
+    border: none;
+} 
+.menucss li ul li ul {
+    right:-140px;
+    left:-200px;
+    top:0px;
+    position:absolute;
+    width: 120px;
+    margin: 0px;
+    text-align: left; 
+}
+.menucss li ul li ul a {
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    padding: 5px 10px;
+    width: 80px;
+}
+.menucss{
+    position: relative;
+    bottom: 4.5em;
+    border-width: 2px;
+    border-color: black;
+}
+}
